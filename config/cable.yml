@@ -3,7 +3,9 @@
 
 production:
   adapter: redis
-  url:
+  url: redis://redistogo:0560124b765d50c4c5fa796b4f07ea4e@sculpin.redistogo.com:10856/
+
+
 
 
 development:
