@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-block">
+    <div class="row">
+      <div class="col-md-1">
+       <%= image_tag message.user.avatar.url(:thumb) %>
+
+      </div>
+      <div class="col-md-11">
+        <p class="card-text">
+          <span class="text-muted"><%= message.user.username %> сказал </span><br>
+          <%= message.content %>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
